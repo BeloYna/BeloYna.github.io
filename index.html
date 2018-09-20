@@ -35,11 +35,15 @@
     <p> This is my first button: </p>
     <p id="demo"></p>
     <script>
-        function myFunc(x,y){
-        return x*y;
-        }
-    <button type="button" onclick="myFunc(34,25)"> Click on it! </button>
+        var x = myFunction(45, 89);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+    return a * b;
+}
     </script>
+    <button type="button" onclick="x"> Click on it! </button>
+
     <div id="mixed1">
     <h2>This is my first web site</h2>
         
