@@ -34,7 +34,7 @@
 <body>
     <p> This is my first button: </p>
     <p id="demo"></p>
-    <button type="button" onclick="myFunction(65,77)"> Click on it! </button>
+    <button onclick="document.getElementById('demo').innerHTML = myFunction(65,77)"> Click on it! </button>
     <script>
     function myFunction(a,b){
     return a * b;
